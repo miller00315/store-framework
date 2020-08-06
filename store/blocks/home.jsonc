@@ -1,9 +1,6 @@
 {
   "store.home": {
-    "blocks": [
-      "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile"
-    ]
+    "blocks": []
   },
   "responsive-layout.desktop#desktop": {
     "children": ["rich-text#desktop", "image#desktop"]
