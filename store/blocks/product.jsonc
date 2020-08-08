@@ -17,7 +17,11 @@
     "children": ["product-images"]
   },
   "flex-layout.col#right": {
-    "children": ["product-price", "flex-layout.row#qty-sku"]
+    "children": [
+      "product-price",
+      "flex-layout.row#qty-sku",
+      "shipping-simulator"
+    ]
   },
   "product-images": {
     "props": {
@@ -42,5 +46,6 @@
     "props": {
       "hideImpossibleCombinations": false
     }
-  }
+  },
+  "shipping-simulator": {}
 }
