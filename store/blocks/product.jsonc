@@ -13,6 +13,19 @@
     },
     "children": ["flex-layout.col#left", "flex-layout.col#right"]
   },
+  "shelf.relatedProducts": {
+    "blocks": ["product-summary.shelf#demo1"]
+  },
+  "product-summary.shelf#demo1": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
   "flex-layout.col#left": {
     "children": ["stack-layout#brand"]
   },
